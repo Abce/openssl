@@ -61,7 +61,7 @@
 
 #include <stdio.h>
 #include <openssl/err.h>
-#include <crypto/jpake/jpake.h>
+#include <openssl/jpake.h>
 
 /* BEGIN ERROR CODES */
 #ifndef OPENSSL_NO_ERR

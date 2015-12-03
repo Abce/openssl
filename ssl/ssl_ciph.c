@@ -140,11 +140,6 @@
  * OTHERWISE.
  */
 
-#if defined(OPENSSL_SYSNAME_WIN32)
-#include <WinSock2.h>
-#define _WINSOCKAPI_    //disable winsock.h
-#endif
-
 #include <stdio.h>
 #include <openssl/objects.h>
 #ifndef OPENSSL_NO_COMP

@@ -56,8 +56,6 @@
  * [including the GNU Public Licence.]
  */
 
-#define __WINCRYPT_H__  //disable wincrypt.h
-
 #include <stdio.h>
 #include <openssl/asn1.h>
 #include <openssl/bn.h>

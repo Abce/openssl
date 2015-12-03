@@ -58,9 +58,9 @@
  */
 
 #include <ctype.h>
+#include <e_os.h>
 #include "o_str.h"
 
-#include <e_os.h>
 #if !defined(OPENSSL_IMPLEMENTS_strncasecmp) && \
     !defined(OPENSSL_SYSNAME_WIN32) && !defined(OPENSSL_SYSNAME_WINCE) && \
     !defined(NETWARE_CLIB)
